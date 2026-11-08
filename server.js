@@ -20,7 +20,7 @@ const app = express();
 
 if (!process.env.JWT_SECRET) {
   console.warn(
-    "⚠️ JWT_SECRET is not configured."
+    " JWT_SECRET is not configured."
   );
 }
 
