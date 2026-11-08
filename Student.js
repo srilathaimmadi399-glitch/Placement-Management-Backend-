@@ -69,7 +69,7 @@ studentSchema.index({
 });
 
 studentSchema.index({
-  branch: 1,
+  branch: 2,
 });
 
 studentSchema.index({
